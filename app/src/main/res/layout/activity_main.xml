@@ -20,8 +20,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Send"
-        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteX="194dp"
         tools:layout_editor_absoluteY="16dp"
         android:onClick="sendMessage[MainActivity]" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

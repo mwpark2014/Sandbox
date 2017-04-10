@@ -10,18 +10,23 @@
     <ImageView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:src="drawable/mirrors_dots"
+        android:src="@drawable/mirrors_dots"
         android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
         />
 
     <TextView
         android:id="@+id/welcomeText"
-        android:text="Happy"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="0dp"
         android:layout_marginTop="16dp"
-        />
+        android:text="Happy Anniversary"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
